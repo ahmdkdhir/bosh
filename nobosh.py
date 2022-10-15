@@ -72,7 +72,7 @@ class tri:
     return log
 
   def buy(self, prodi):
-    my_secret = "bimaplus.tri.co.id/api/v1/purchase/purchase-product"
+    my_secret = "https://bimaplus.tri.co.id/api/v1/purchase/purchase-product"
     dat = {
       "addonMenuCategory": "",
       "addonMenuSubCategory": "",
